@@ -1,0 +1,6 @@
+[lerobot.motors_bus]
+panthera_bus = lerobot_robot_panthera.motors.panthera_motors_bus:PantheraMotorsBus
+
+[lerobot.robot]
+panthera_follower = lerobot_robot_panthera.panthera_follower:PantheraFollower
+panthera_leader = lerobot_robot_panthera.panthera_leader:PantheraLeader

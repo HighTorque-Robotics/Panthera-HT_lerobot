@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lerobot_robot_panthera"
+version = "0.1.0"
+description = "LeRobot integration for Panthera robots"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pyyaml"
+]
+
+[project.entry-points."lerobot.robot"]
+panthera_follower = "lerobot_robot_panthera.panthera_follower:PantheraFollower"
+panthera_leader = "lerobot_robot_panthera.panthera_leader:PantheraLeader"
+
+[project.entry-points."lerobot.motors_bus"]
+panthera_bus = "lerobot_robot_panthera.motors.panthera_motors_bus:PantheraMotorsBus"

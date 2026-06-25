@@ -1,0 +1,28 @@
+# Python
+  __pycache__/
+  *.py[cod]
+  *$py.class
+  *.so
+  .Python
+  env/
+  venv/
+  *.egg-info/
+  dist/
+  build/
+
+  # IDE
+  .vscode/
+  .idea/
+  *.swp
+  *.swo
+
+  # OS
+  .DS_Store
+  Thumbs.db
+
+  # 数据文件
+  *.h5
+  *.hdf5
+  *.pkl
+  *.pth
+  *.ckpt

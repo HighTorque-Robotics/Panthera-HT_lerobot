@@ -1,9 +1,8 @@
 # Panthera-HT LeRobot Integration
 
-[中文](#中文) | [English](#english)
+[![中文](https://img.shields.io/badge/lang-简体中文-red.svg)](#中文)[![en](https://img.shields.io/badge/lang-English-blue.svg)](#english)
 
 <a id="中文"></a>
-## 中文
 
 Panthera-HT LeRobot Integration 是 Panthera-HT 机械臂接入 LeRobot 框架的示例工程，用于数据采集、模仿学习训练和策略评估。项目保留原生 `lerobot/` 框架源码，并在 `Panthera-HT_robot_lerobot/` 中提供 Panthera-HT 的机器人适配层。
 
@@ -135,8 +134,14 @@ python lerobot_record.py \
 - 根目录当前没有独立 `LICENSE` 文件，正式开源前请补充许可证文件。
 - `lerobot/` 是上游框架源码，非必要不建议大改，方便后续同步上游。
 
+
+---
+
+# Panthera-HT LeRobot Integration
+
+[![en](https://img.shields.io/badge/lang-English-blue.svg)](#english)[![中文](https://img.shields.io/badge/lang-简体中文-red.svg)](#中文)
+
 <a id="english"></a>
-## English
 
 Panthera-HT LeRobot Integration connects the Panthera-HT robotic arm to the LeRobot framework for data collection, imitation learning, and policy evaluation. The repository keeps the upstream `lerobot/` source tree and adds the Panthera-HT adapter package under `Panthera-HT_robot_lerobot/`.
 
